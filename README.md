@@ -1,12 +1,72 @@
-# React + Vite
+📚 Author Portfolio Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based single-page application (SPA) designed to present an author’s biography, articles, and published books through a clean, responsive, and maintainable frontend architecture.
 
-Currently, two official plugins are available:
+This project focuses on component-driven development, state-based UI updates, and scalable structure suitable for content-heavy personal platforms.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Overview
 
-## Expanding the ESLint configuration
+The application serves as a personal portfolio platform for authors, providing structured sections for content presentation and interactive user features such as registration and a client-side shopping cart.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The UI is built with responsiveness and consistency in mind, leveraging React Bootstrap to ensure optimal experience across desktop, tablet, and mobile devices.
+
+✨ Features
+
+Home Page
+Author introduction and general overview.
+
+Biography Section
+Detailed information about the author's background and achievements.
+
+Articles Module
+Structured listing of articles with titles and descriptions.
+
+Books Catalog
+Display of published books including cover images, summaries, and pricing.
+
+User Sign-Up
+Client-side registration form handling.
+
+Shopping Cart (Client-Side)
+Add/remove books and manage cart state dynamically.
+
+🧠 Technical Highlights
+
+Single Page Application (SPA) built with React
+
+Component-based and reusable UI architecture
+
+State-driven UI updates for cart and user interactions
+
+Responsive layout using React Bootstrap grid system
+
+Clean and maintainable JavaScript (ES6+) codebase
+
+Separation of presentation and logic for better scalability
+
+🛠️ Tech Stack
+
+- React
+
+- JavaScript (ES6+)
+
+- React Bootstrap
+
+🌐 Live Demo
+
+🔗 https://www.akhavan-safaei.ir/
+
+📦 Repository
+
+🔗 https://github.com/yektaakhavan/Author-portfolio
+
+🖼️ Preview
+
+
+![Alireza Akhavan Safaei](./src/assets/picture/preview/Author-portfolio.png)
+
+
+## 📌 Notes
+
+This project demonstrates real-world frontend development practices including
+component reuse, responsive UI design, and client-side state management using React.
