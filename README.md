@@ -15,7 +15,7 @@ A responsive and dynamic personal website built with React to showcase an author
 
 - React
 - JavaScript (ES6+)
-- HTML5 & CSS3
+- React Bootstrap
 
 ---
 
