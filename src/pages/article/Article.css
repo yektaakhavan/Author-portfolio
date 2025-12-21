@@ -1,0 +1,46 @@
+/* .writingsFromTheBook {
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.articleCard {
+  border: none;
+  padding: 0 30px;
+} */
+
+.main-content-container {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  
+}
+
+.page-content-section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2.5rem;
+  box-shadow: 0 2px 15px rgba(15, 18, 88, 0.08);
+  margin-top: 2rem;
+}
+
+.page-description-text {
+  color: #555;
+  line-height: 1.8;
+  text-align: justify;
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+}
+
+.cards-row {
+  margin-top: 2rem;
+  row-gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .page-content-section {
+    padding: 1.5rem;
+  }
+
+  .page-description-text {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,65 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 60px;
+   padding: 0;
+}
+
+.button:hover {
+  transform: scale(1.05);
+}
+
+.read-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+  border: 0;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  position: relative; /* تغییر از absolute */
+  top: auto;
+  left: auto;
+  transform: none;
+  border-radius: 3rem;
+  transition: all 0.2s;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+  z-index: 0;
+  box-shadow: 0 0px 7px -5px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  min-width: 150px;
+}
+
+.hoverEffect {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.hoverEffect div {
+  background: linear-gradient(
+    90deg,
+    rgb(206, 134, 158) 0%,
+    rgba(191, 70, 255, 1) 49%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border-radius: 40rem;
+  width: 10rem;
+  height: 10rem;
+  transition: 0.4s;
+  filter: blur(20px);
+  animation: effect infinite 3s linear;
+  opacity: 0.5;
+  cursor: pointer;
+}

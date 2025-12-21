@@ -1,0 +1,105 @@
+
+
+.contact-card {
+  border-radius: 15px !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(15, 18, 88, 0.1);
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(15, 18, 88, 0.15);
+}
+
+.visual-card {
+  border-radius: 15px !important;
+  transition: all 0.3s ease;
+}
+
+.icon-wrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  background-color: rgba(15, 18, 88, 0.05);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease;
+}
+
+.contact-item:hover {
+  background-color: rgba(15, 18, 88, 0.1);
+}
+
+.contact-text {
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.social-links-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-link-contact {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.socialID {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.social-icon-img-contact {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+  filter: brightness(0) saturate(100%);
+  transition: filter 0.3s;
+}
+
+.social-link-contact.whatsapp:hover {
+  background-color: rgba(37, 211, 102, 0.1);
+  color: #25d366;
+}
+
+.social-link-contact.telegram:hover {
+  background-color: rgba(0, 136, 204, 0.1);
+  color: #0088cc;
+}
+
+.social-link-contact.instagram:hover {
+  background-color: rgba(225, 48, 108, 0.1);
+  color: #e1306c;
+}
+
+.social-link-contact.eitaa:hover {
+  background-color: rgba(225, 48, 108, 0.1);
+  color: #ee7f22;
+  filter: invert(64%) sepia(83%) saturate(1015%) hue-rotate(1deg)
+    brightness(97%) contrast(93%);
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'yekan-bakh';
+}
+
+
+img {
+  object-fit: cover;
+}
+
+
+@font-face {
+  font-display: swap;
+  font-family: "yekan-bakh";
+  src: url("/src/assets/font/yekan-bakh/YekanBakhFaNum-Regular.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

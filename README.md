@@ -1,28 +1,12 @@
-# 📚 Author's Personal Website
+# React + Vite
 
-A responsive and dynamic personal website built with React to showcase an author's biography, articles, books, and more.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
+Currently, two official plugins are available:
 
-- **Home Page** – Introduction and overview of the author.
-- **Biography** – A detailed section about the author's background and achievements.
-- **Articles** – A collection of published articles with titles and descriptions.
-- **Books** – Display of the author’s books with images, summaries, and pricing.
-- **Sign-Up Page** – A registration form for new users.
-- **Shopping Cart** – Add books to cart and manage purchases.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🛠️ Built With
+## Expanding the ESLint configuration
 
-- React
-- JavaScript (ES6+)
-- React Bootstrap
-
----
-
-## demo
-
-Click [here](https://yektaakhavan.github.io/Personal-site/) to view the site online
-
----
-
-![Alireza Akhavan Safaei](./picture/banner/banner.png)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
