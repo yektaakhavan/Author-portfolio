@@ -83,7 +83,7 @@ function Books() {
                         </div>
 
                         <div className="price-box">
-                          <span className="price">260,000 تومان</span>
+                          <span className="price">480,000 تومان</span>
                         </div>
 
                         <div className="delivery-info">
@@ -256,7 +256,7 @@ function Books() {
                     </p>
 
                     <p>
-                      با دیسیپلین‌کار پیشرفت جمعی و فردی توأمان به وجود می‌آید و
+                      با دیسیپلین‌کار پیشرفت جمعی و فردی توأمان به دست می‌آید و
                       می‌توان هر روز از کارکردن لذت برد. با مطالعه‌ی این کتاب و
                       فراگیری دیسیپلین‌کار یاد می‌گیریم در محل کار طوری رفتار
                       کنیم که باعث رنجش یکدیگر نشویم، به پوشش و اخلاقمان اهمیت
@@ -268,7 +268,7 @@ function Books() {
                     <ul className="feature-list">
                       <li>
                         <i className="bi bi-check-circle-fill text-primary me-2"></i>
-                        اصول پایه‌ای دیسیپلین کاری
+                        نحوه ی درست کار کردن
                       </li>
                       <li>
                         <i className="bi bi-check-circle-fill text-primary me-2"></i>
@@ -280,7 +280,7 @@ function Books() {
                       </li>
                       <li>
                         <i className="bi bi-check-circle-fill text-primary me-2"></i>
-                        ایجاد عادات کاری مؤثر
+                        ایجاد عادت های کاری مؤثر
                       </li>
                       <li>
                         <i className="bi bi-check-circle-fill text-primary me-2"></i>

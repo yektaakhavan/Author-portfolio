@@ -5,19 +5,40 @@
 }
 
 body {
-  font-family: 'yekan-bakh';
+  font-family: 'vazir', 'yekan-bakh', 'KalamehWeb', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
 }
-
 
 img {
   object-fit: cover;
 }
 
 
+
 @font-face {
-  font-display: swap;
-  font-family: "yekan-bakh";
-  src: url("/src/assets/font/yekan-bakh/YekanBakhFaNum-Regular.woff2") format('woff2');
-  font-weight: normal;
+  font-family: "vazir";
+  src: url("/src/assets/font/Vazir/Vazir.woff2") format('woff2'),
+    url("/src/assets/font/Vazir/Vazir.woff") format('woff');
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "yekan-bakh";
+  src: url("/src/assets/font/yekan-bakh/YekanBakhFaNum-Regular.woff2") format('woff2'),
+    url("/src/assets/font/yekan-bakh/YekanBakhFaNum-Regular.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "KalamehWeb";
+  src: url("/src/assets/font/KalamehWebFaNum/KalamehWebFaNum-Regular.woff2") format('woff2'),
+    url("/src/assets/font/KalamehWebFaNum/KalamehWebFaNum-Regular.woff") format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
