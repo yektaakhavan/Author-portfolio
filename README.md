@@ -1,72 +1,107 @@
-📚 Author Portfolio Web Application
 
-A React-based single-page application (SPA) designed to present an author’s biography, articles, and published books through a clean, responsive, and maintainable frontend architecture.
+# 📚 Author Portfolio
 
-This project focuses on component-driven development, state-based UI updates, and scalable structure suitable for content-heavy personal platforms.
+A responsive portfolio website built for an author to showcase their biography, published articles, and books. The application provides an organized content experience with dedicated pages, dynamic navigation, and interactive client-side features.
 
-🚀 Overview
+## Tech Stack
 
-The application serves as a personal portfolio platform for authors, providing structured sections for content presentation and interactive user features such as registration and a client-side shopping cart.
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
+![React Router](https://img.shields.io/badge/React_Router-7-CA4245?logo=reactrouter&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)
+![React Bootstrap](https://img.shields.io/badge/React_Bootstrap-2-7952B3?logo=reactbootstrap&logoColor=white)
 
-The UI is built with responsiveness and consistency in mind, leveraging React Bootstrap to ensure optimal experience across desktop, tablet, and mobile devices.
+![Author Portfolio screenshot](./src/assets/picture/preview/Author-portfolio.png)
 
-✨ Features
+## Features
 
-Home Page
-Author introduction and general overview.
+- **Author Profile:** Dedicated sections for introducing the author and presenting their biography.
+- **Articles:** Organized article listing with individual article pages.
+- **Dynamic Routing:** Navigation between pages and dynamic article routes using React Router.
+- **Books Catalog:** Displays published books with cover images, descriptions, and pricing.
+- **Shopping Cart:** Add and remove books with shared client-side state.
+- **User Registration:** Client-side sign-up form interface.
+- **Contact Page:** Dedicated page for author contact information.
+- **Responsive Layout:** Adapts to different screen sizes using Bootstrap's grid system.
+- **Page Metadata:** Manages document titles and metadata with React Helmet Async.
+- **Scroll Animations:** Adds visual transitions using AOS.
 
-Biography Section
-Detailed information about the author's background and achievements.
+## Architecture Notes
 
-Articles Module
-Structured listing of articles with titles and descriptions.
+- **Component-based structure:** The interface is divided into reusable React components to keep presentation organized and maintainable.
+- **Client-side routing:** React Router handles navigation between the home, about, articles, books, and contact pages. Dynamic article routes use the article ID to identify individual content.
+- **Shared cart state:** React Context API provides a shared state for shopping cart interactions, allowing components to access and update cart data without prop drilling.
+- **Responsive UI:** React Bootstrap components and the Bootstrap grid system provide a consistent layout across desktop, tablet, and mobile devices.
+- **Document metadata:** React Helmet Async manages page-level metadata, helping keep document information organized across routes.
+- **Date handling:** Moment Jalaali supports Jalali date formatting where required.
+- **Build tooling:** Vite provides the local development server and optimized production build.
 
-Books Catalog
-Display of published books including cover images, summaries, and pricing.
+## Getting Started
 
-User Sign-Up
-Client-side registration form handling.
+### Prerequisites
 
-Shopping Cart (Client-Side)
-Add/remove books and manage cart state dynamically.
+- Node.js
+- npm
 
-🧠 Technical Highlights
+### Installation
 
-Single Page Application (SPA) built with React
+```bash
+git clone https://github.com/yektaakhavan/Author-portfolio.git
+cd Author-portfolio
+npm install
+```
 
-Component-based and reusable UI architecture
+### Development
 
-State-driven UI updates for cart and user interactions
+```bash
+npm run dev
+```
 
-Responsive layout using React Bootstrap grid system
+### Production Build
 
-Clean and maintainable JavaScript (ES6+) codebase
+```bash
+npm run build
+```
 
-Separation of presentation and logic for better scalability
+### Preview Production Build
 
-🛠️ Tech Stack
+```bash
+npm run preview
+```
 
-- React
+### Lint
 
-- JavaScript (ES6+)
+```bash
+npm run lint
+```
 
-- React Bootstrap
+## Available Scripts
 
-🌐 Live Demo
+| Command | Description |
+|---|---|
+| `npm run dev` | Starts the Vite development server |
+| `npm run build` | Creates an optimized production build |
+| `npm run preview` | Previews the production build locally |
+| `npm run lint` | Runs ESLint to check code quality |
 
-🔗 https://www.akhavan-safaei.ir/
+## Live Demo
 
-📦 Repository
+[Visit the live website](https://www.akhavan-safaei.ir/)
 
-🔗 https://github.com/yektaakhavan/Author-portfolio
+## Roadmap
 
-🖼️ Preview
+- [ ] Add automated tests for core features
+- [ ] Improve accessibility across interactive components
+- [ ] Enhance loading and error states
+- [ ] Optimize image loading and frontend performance
+- [ ] Extend shopping cart functionality with a complete checkout flow
 
+## Author
 
-![Alireza Akhavan Safaei](./src/assets/picture/preview/Author-portfolio.png)
+**Yekta Akhavan**
 
-
-## 📌 Notes
-
-This project demonstrates real-world frontend development practices including
-component reuse, responsive UI design, and client-side state management using React.
+[![Gmail](https://img.shields.io/badge/Gmail-yekta.akhavan.dev@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:yekta.akhavan.dev@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yekta_Akhavan-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yekta-akhavan/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-yekta--akhavan.vercel.app-991397?style=flat-square&logo=vercel&logoColor=white)](https://yekta-akhavan.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-yektaakhavan-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yektaakhavan)
